@@ -4,12 +4,20 @@ package araceli.giti7083.mascota;
  * 
  * @author Araceli Colmenero * Ultima revision: Febrero 2016
  */
-public abstract class Leon implements Animal {
+public class Leon implements Animal {
 	/**
      * Implementación del método rugir
      */
 	public void rugir(){
 	System.out.println("El leon ruge");	
 	}
+
+	@Override
+	public void comer() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
 
 }

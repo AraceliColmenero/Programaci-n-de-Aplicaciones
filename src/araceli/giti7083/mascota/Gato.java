@@ -4,6 +4,12 @@ package araceli.giti7083.mascota;
  * 
  * @author Araceli Colmenero * Ultima revision: Febrero 2016
  */
-public abstract class Gato extends Mascota {
+public  class Gato extends Mascota {
+
+	@Override
+	public void comer() {
+		// TODO Auto-generated method stub
+		
+	}
 
 }
